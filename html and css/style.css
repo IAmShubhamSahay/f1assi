@@ -1,0 +1,160 @@
+body{
+    background-color: #000000;
+    color: #F3B700;
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: #F3B700;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+#navbar .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar ul li{
+    margin-left: 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#intro-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+#intro-section .content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#intro-section .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#intro-section .login-btn {
+    background-color: #F3B700;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#intro-section .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact-section {
+    padding: 20px;
+    text-align: center;
+}
+
+#contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-section form input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #F3B700;
+    background-color: #000;
+    color: #F3B700;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px;
+}
+
+#contact-section form input:focus {
+    outline: none;
+}
+
+#contact-section form button {
+    background-color: #F3B700;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+ #table-section {
+    padding: 20px;
+    text-align: center;
+}
+
+#table-section table {
+    width: 100%;
+  
+    margin-top: 20px;
+  
+}
+
+#table-section th, #table-section td {
+    border: 1px solid #F3B700;
+    padding: 10px;
+    
+}
+
+/* #table-section th {
+ 
+} */
+
+ #table-section td {
+    background-color: #000;
+    color: #F3B700;
+   
+}
+
+#table-section tfoot td {
+    background-color: #F3B700;
+    color: #000;
+   
+} 
+.collapse{
+    border-collapse: collapse;
+}
+.separate{
+    border-collapse: separate;
+}
+
+
+
+ 
